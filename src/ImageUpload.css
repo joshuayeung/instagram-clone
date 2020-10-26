@@ -1,0 +1,26 @@
+.imageUpload {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 20px;
+  /* position: fixed;
+  bottom: 0; */
+}
+
+.imageUpload__progress {
+  width: 100%;
+  align-self: center;
+  margin-top: 10px;
+}
+
+.imageUpload > input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+}
